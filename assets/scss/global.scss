@@ -19,6 +19,8 @@ body
     background-position: bottom;
     position: relative;
     flex-direction: column;
+    padding-bottom: 120px;
+    min-height: 100vh;
     &:after
     {
         position: absolute;
@@ -28,6 +30,10 @@ body
         background: url(../img/top-bar.png) repeat-x;
         width: 100%;
         height: 21px;
+    }
+    &.pad0
+    {
+        padding: 0 !important;
     }
 }
 .contentContainer

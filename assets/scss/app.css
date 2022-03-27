@@ -15,7 +15,9 @@ body {
   background: url(../img/skyline-footer1.png) repeat-x;
   background-position: bottom;
   position: relative;
-  flex-direction: column; }
+  flex-direction: column;
+  padding-bottom: 120px;
+  min-height: 100vh; }
   .mainWrapper:after {
     position: absolute;
     content: '';
@@ -24,6 +26,8 @@ body {
     background: url(../img/top-bar.png) repeat-x;
     width: 100%;
     height: 21px; }
+  .mainWrapper.pad0 {
+    padding: 0 !important; }
 
 .contentContainer {
   display: flex;
@@ -161,8 +165,7 @@ body {
         align-items: center;
         text-align: center;
         color: var(--black);
-        width: 150px;
-        height: 45px;
+        padding: 7px 25px;
         border: 0;
         text-align: center;
         display: flex;
@@ -360,5 +363,248 @@ body {
         width: 100px; }
       .aboutFollow ul li:last-child {
         margin-right: 0; }
+
+.roadMapContainerInitLine {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 10px 0 80px 0;
+  align-items: center; }
+  .roadMapContainerInitLine span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000; }
+    .roadMapContainerInitLine span span {
+      color: #0C5F08;
+      font-size: 26px; }
+  .roadMapContainerInitLine .takeMeBtn {
+    background: linear-gradient(180deg, #9DEFED 0%, #99EDA1 89.06%, #56B851 100%);
+    border-radius: 20px;
+    font-family: var(--Blinker);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: var(--black);
+    border: 0;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 16px;
+    padding: 7px 25px; }
+
+.roadMapCarouselContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0 0 0px 0; }
+  .roadMapCarouselContainer .owl-nav {
+    position: absolute;
+    top: 35px;
+    width: 100%;
+    z-index: 1; }
+    .roadMapCarouselContainer .owl-nav button.owl-prev {
+      left: -75px;
+      position: absolute;
+      top: 10px;
+      width: 50px;
+      z-index: 9999;
+      margin: 0; }
+      .roadMapCarouselContainer .owl-nav button.owl-prev span {
+        position: relative;
+        color: transparent;
+        text-indent: -3000px; }
+        .roadMapCarouselContainer .owl-nav button.owl-prev span:before {
+          content: '';
+          background: url(../img/left-arrow.png) no-repeat;
+          width: 21px;
+          height: 150px;
+          position: absolute; }
+      .roadMapCarouselContainer .owl-nav button.owl-prev:hover {
+        background: transparent; }
+      .roadMapCarouselContainer .owl-nav button.owl-prev.disabled {
+        display: none; }
+    .roadMapCarouselContainer .owl-nav button.owl-next {
+      right: -60px;
+      position: absolute;
+      top: 10px;
+      width: 50px;
+      z-index: 9999;
+      margin: 0; }
+      .roadMapCarouselContainer .owl-nav button.owl-next span {
+        position: relative;
+        color: transparent;
+        text-indent: -3000px; }
+        .roadMapCarouselContainer .owl-nav button.owl-next span:before {
+          content: '';
+          background: url(../img/right-arrow.png) no-repeat;
+          width: 21px;
+          height: 150px;
+          position: absolute; }
+      .roadMapCarouselContainer .owl-nav button.owl-next.disabled {
+        display: none; }
+      .roadMapCarouselContainer .owl-nav button.owl-next:hover {
+        background: transparent; }
+
+.roadMapCarouselBox {
+  display: flex;
+  flex-wrap: wrap;
+  width: 265px;
+  position: relative;
+  height: 265px; }
+  .roadMapCarouselBox.roadMap1Img {
+    background: url(../img/road-map1.png) no-repeat; }
+  .roadMapCarouselBox.roadMap2Img {
+    background: url(../img/road-map2.png) no-repeat; }
+  .roadMapCarouselBox.roadMap3Img {
+    background: url(../img/road-map3.png) no-repeat; }
+  .roadMapCarouselBox.roadMap4Img {
+    background: url(../img/road-map4.png) no-repeat; }
+  .roadMapCarouselBox.roadMap5Img {
+    background: url(../img/road-map5.png) no-repeat; }
+  .roadMapCarouselBox.roadMap6Img {
+    background: url(../img/road-map1.png) no-repeat; }
+  .roadMapCarouselBox.roadMap7Img {
+    background: url(../img/road-map6.png) no-repeat; }
+  .roadMapCarouselBox:hover:before {
+    content: '';
+    background: url(../img/border.png) no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute; }
+  .roadMapCarouselBox .showCarouselBox {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 30px; }
+    .roadMapCarouselBox .showCarouselBox .tickImg {
+      width: 35px;
+      height: 35px;
+      margin-bottom: 10px; }
+    .roadMapCarouselBox .showCarouselBox h4 {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 26px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: #000000;
+      font-family: var(--Blinker);
+      margin: 0; }
+    .roadMapCarouselBox .showCarouselBox h3 {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 28px;
+      line-height: 36px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: #000000;
+      font-family: var(--Blinker);
+      margin: 0; }
+  .roadMapCarouselBox .hideCarouselBoxContent {
+    display: none;
+    align-items: center;
+    justify-content: center; }
+    .roadMapCarouselBox .hideCarouselBoxContent:before {
+      content: '';
+      background: url(../img/border.png) no-repeat;
+      width: 100%;
+      height: 100%;
+      position: absolute; }
+    .roadMapCarouselBox .hideCarouselBoxContent p {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 22px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      font-family: var(--Blinker);
+      color: #000000;
+      padding: 30px 20px;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      margin: 0; }
+
+.faqContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 25px auto 0; }
+  .faqContainer .accordion {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; }
+    .faqContainer .accordion .accordion-item {
+      border-radius: 0;
+      background: transparent;
+      margin-bottom: 8px;
+      border: 0; }
+      .faqContainer .accordion .accordion-item .accordion-header {
+        border-radius: 0;
+        background: transparent;
+        border: 0; }
+        .faqContainer .accordion .accordion-item .accordion-header .accordion-button {
+          background: rgba(153, 237, 161, 0.47);
+          border-radius: 20px;
+          border: 0;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 22px;
+          line-height: 28px;
+          color: #000000;
+          font-family: var(--Blinker);
+          padding: 8px 18px; }
+          .faqContainer .accordion .accordion-item .accordion-header .accordion-button:after {
+            background: url(../img/arrow.png) no-repeat;
+            border: 0;
+            width: 25px;
+            height: 25px;
+            background-size: cover; }
+          .faqContainer .accordion .accordion-item .accordion-header .accordion-button:focus {
+            outline: 0;
+            box-shadow: 0 0 0; }
+          .faqContainer .accordion .accordion-item .accordion-header .accordion-button:focus-visible {
+            outline: 0;
+            box-shadow: 0 0 0; }
+          .faqContainer .accordion .accordion-item .accordion-header .accordion-button:active {
+            outline: 0;
+            box-shadow: 0 0 0; }
+      .faqContainer .accordion .accordion-item .accordion-collapse {
+        background: rgba(231, 255, 233, 0.9);
+        border-radius: 20px;
+        padding: 18px; }
+        .faqContainer .accordion .accordion-item .accordion-collapse .accordion-body {
+          padding: 0; }
+          .faqContainer .accordion .accordion-item .accordion-collapse .accordion-body p {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 24px;
+            color: #000000;
+            margin-bottom: 15px; }
+          .faqContainer .accordion .accordion-item .accordion-collapse .accordion-body strong {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 24px;
+            color: #000000;
+            margin-bottom: 20px;
+            display: block; }
+          .faqContainer .accordion .accordion-item .accordion-collapse .accordion-body ol li ol li {
+            list-style: lower-alpha; }
 
 /*# sourceMappingURL=app.css.map */
