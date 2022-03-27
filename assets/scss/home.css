@@ -1,1 +1,111 @@
-/* No CSS *//*# sourceMappingURL=home.css.map */
+.homeContainerWithImg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  height: calc(100vh - 78px);
+  position: relative;
+  bottom: 0;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.homeContainerWithImg .container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.homeContainerWithImg .container .homeleftSide {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: relative;
+  height: 100%;
+}
+
+.homeContainerWithImg .container .homeleftSide .homeInsideLeftSide {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.homeContainerWithImg .container .homeleftSide img {
+  width: 100%;
+}
+
+.homeContainerWithImg .container .homeRightSide {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-bottom: 180px;
+}
+
+.homeContainerWithImg .container .homeRightSide h2 {
+  font-family: var(--Blinker);
+  margin: 0 0 15px 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 90px;
+}
+
+.homeContainerWithImg .container .homeRightSide h4 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 34px;
+  margin: 0 0 35px 0;
+  color: #0C5F08;
+  font-family: var(--Blinker);
+}
+
+.homeContainerWithImg .container .homeRightSide .buyNowHomeBtn {
+  background: -webkit-gradient(linear, left top, left bottom, from(#9DEFED), color-stop(89.06%, #99EDA1), to(#56B851));
+  background: linear-gradient(180deg, #9DEFED 0%, #99EDA1 89.06%, #56B851 100%);
+  border-radius: 20px;
+  font-family: var(--Blinker);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: var(--black);
+  width: 150px;
+  height: 45px;
+  border: 0;
+  text-align: center;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=home.css.map */

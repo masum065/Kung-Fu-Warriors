@@ -1,0 +1,304 @@
+.aboutContainerWrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 40px 0 0 0;
+}
+
+.splitMainHeading {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 90px;
+  font-family: var(--Blinker);
+  color: #000000;
+}
+
+.splitMainHeading span {
+  background: -webkit-gradient(linear, left top, left bottom, from(#6AFFFB), color-stop(90.1%, #56B851), to(#41A03C));
+  background: linear-gradient(180deg, #6AFFFB 0%, #56B851 90.1%, #41A03C 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.aboutToggleWrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 45px;
+}
+
+.aboutToggleWrap .aboutToggle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  background: url(../img/about-us-accord-line.png) repeat-x;
+  background-position: bottom;
+  padding-bottom: 8px;
+  position: relative;
+}
+
+.aboutToggleWrap .aboutToggle .insideAboutToggle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.aboutToggleWrap .aboutToggle .insideAboutToggle .aboutLeftToggle {
+  width: 25%;
+}
+
+.aboutToggleWrap .aboutToggle .insideAboutToggle .aboutLeftToggle img {
+  width: 100%;
+}
+
+.aboutToggleWrap .aboutToggle .insideAboutToggle .aboutRightToggle {
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-bottom: 35px;
+}
+
+.aboutToggleWrap .aboutToggle .insideAboutToggle .aboutRightToggle p {
+  font-family: var(--Blinker);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 32px;
+  color: #000000;
+  margin-bottom: 0;
+}
+
+.aboutToggleWrap .aboutCollapseBody .card {
+  background: rgba(231, 255, 233, 0.2);
+  padding: 15px 0;
+  -webkit-box-shadow: 0 0 0;
+          box-shadow: 0 0 0;
+  border: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.aboutToggleWrap .aboutCollapseBody .card .container {
+  max-width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.aboutToggleWrap .aboutCollapseBody .card .container .aboutCollpaseBox {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.aboutToggleWrap .aboutCollapseBody .card .container .aboutCollpaseBox .aboutCollapseBoxImg {
+  width: 15%;
+}
+
+.aboutToggleWrap .aboutCollapseBody .card .container .aboutCollpaseBox .aboutCollapseBoxImg img {
+  width: 100%;
+}
+
+.aboutToggleWrap .aboutCollapseBody .card .container .aboutCollpaseBox .aboutCollpaseBoxContent {
+  width: 85%;
+  padding-left: 50px;
+}
+
+.aboutToggleWrap .aboutCollapseBody .card .container .aboutCollpaseBox .aboutCollpaseBoxContent h5 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  color: #0C5F08;
+  font-family: var(--Blinker);
+  margin-bottom: 6px;
+}
+
+.aboutToggleWrap .aboutCollapseBody .card .container .aboutCollpaseBox .aboutCollpaseBoxContent p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
+  font-family: var(--Blinker);
+  margin: 0;
+}
+
+.aboutToggle[aria-expanded="false"]:after {
+  content: '';
+  position: absolute;
+  right: 10px;
+  bottom: 20px;
+  width: 25px;
+  height: 25px;
+  background: url(../img/arrow.png) no-repeat;
+  background-size: cover;
+}
+
+.aboutToggle[aria-expanded="true"]:after {
+  content: '';
+  position: absolute;
+  right: 10px;
+  bottom: 20px;
+  width: 25px;
+  height: 25px;
+  background: url(../img/arrow.png) no-repeat;
+  background-size: cover;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.aboutTeamMembers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.aboutTeamMembers .teamHeading {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 55px;
+  color: #0C5F08;
+  margin: 0 0 35px 0;
+  font-family: var(--Blinker);
+}
+
+.aboutTeamMembers .aboutTeamMemberBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 35px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.aboutTeamMembers .aboutTeamMemberBox .teamMemberPic {
+  width: 25%;
+}
+
+.aboutTeamMembers .aboutTeamMemberBox .teamMemberPic img {
+  width: 100%;
+}
+
+.aboutTeamMembers .aboutTeamMemberBox .teamMemberIntroText {
+  width: 75%;
+  padding-left: 25px;
+}
+
+.aboutTeamMembers .aboutTeamMemberBox .teamMemberIntroText h4 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 35px;
+  color: #000000;
+  font-family: var(--Blinker);
+  margin: 0;
+}
+
+.aboutTeamMembers .aboutTeamMemberBox .teamMemberIntroText p {
+  font-family: var(--Blinker);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  color: #000000;
+  margin: 0;
+}
+
+.aboutFollow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.aboutFollow .followHeading {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 55px;
+  color: #0C5F08;
+  margin: 0 0 35px 0;
+  font-family: var(--Blinker);
+}
+
+.aboutFollow ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.aboutFollow ul li {
+  list-style: none;
+  margin: 0 30px 0 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.aboutFollow ul li a img {
+  width: 100px;
+}
+
+.aboutFollow ul li:last-child {
+  margin-right: 0;
+}
+/*# sourceMappingURL=about.css.map */
