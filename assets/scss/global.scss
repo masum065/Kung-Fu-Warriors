@@ -1,0 +1,39 @@
+:root 
+{
+    --black: #000000;
+    --green: #0C5F08;
+    --linearGreen: linear-gradient(180deg, #6AFFFB 0%, #56B851 90.1%, #41A03C 100%);
+    --Blinker: 'Blinker', sans-serif: 
+}
+body
+{
+    font-family: 'Blinker', sans-serif;
+    background: rgb(255,200,60);
+    background: linear-gradient(0deg, rgba(255,200,60,1) 0%, rgba(255,251,228,1) 75%);
+}
+.mainWrapper
+{
+    display: flex;
+    width: 100%;
+    background: url(../img/skyline-footer1.png) repeat-x;
+    background-position: bottom;
+    position: relative;
+    flex-direction: column;
+    &:after
+    {
+        position: absolute;
+        content:'';
+        bottom:0;
+        left:0;
+        background: url(../img/top-bar.png) repeat-x;
+        width: 100%;
+        height: 21px;
+    }
+}
+.contentContainer
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}

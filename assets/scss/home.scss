@@ -1,0 +1,83 @@
+.homeContainerWithImg 
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: calc(100vh - 78px);
+    position: relative;
+    bottom: 0;
+    justify-content: flex-end;
+	.container
+	{
+		    position: relative;
+		    display: flex;
+		    flex-wrap: wrap;
+		    justify-content: flex-start;
+		    align-items: flex-end;
+		.homeleftSide
+		{
+			width: 50%;
+		    display: flex;
+		    flex-wrap: wrap;
+		    position: relative;
+		    height: 100%;
+			.homeInsideLeftSide
+			{
+				position: absolute;
+		    	bottom: 0;
+		    	width: 100%;
+			}
+		    img
+		    {
+		    	width: 100%;	
+		    }
+		}
+		.homeRightSide
+		{
+			    width: 50%;
+			    display: flex;
+			    flex-wrap: wrap;
+			    align-items: flex-end;
+			    padding-bottom: 180px;
+			h2
+			{
+				font-family: var(--Blinker);
+			    margin: 0 0 15px 0;
+			    font-style: normal;
+			    font-weight: 400;
+			    font-size: 70px;
+			    line-height: 90px;
+			}
+			h4
+			{
+				font-style: normal;
+			    font-weight: 400;
+			    font-size: 26px;
+			    line-height: 34px;
+			    margin: 0 0 35px 0;
+			    color: #0C5F08;
+			    font-family: var(--Blinker);
+			}
+			.buyNowHomeBtn
+			{
+				background: linear-gradient(180deg, #9DEFED 0%, #99EDA1 89.06%, #56B851 100%);
+			    border-radius: 20px;
+			    font-family: var(--Blinker);
+			    font-style: normal;
+			    font-weight: 400;
+			    font-size: 21px;
+			    display: flex;
+			    align-items: center;
+			    text-align: center;
+			    color: var(--black);
+			    width: 150px;
+			    height: 45px;
+			    border: 0;
+			    text-align: center;
+			    display: flex;
+			    flex-wrap: wrap;
+			    justify-content: center;
+			}
+		}
+	}
+}

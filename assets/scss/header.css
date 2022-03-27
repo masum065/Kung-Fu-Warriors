@@ -1,0 +1,55 @@
+.topHeader {
+  background: url(../img/top-bar.png);
+  background-repeat: repeat-x;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+.topHeader .insideHeader {
+  background: #ffc83c;
+  background: -webkit-gradient(linear, left bottom, left top, from(#ffc83c), color-stop(75%, #fffbe4));
+  background: linear-gradient(0deg, #ffc83c 0%, #fffbe4 75%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  margin: 30px 0 0 0;
+  padding: 10px 0;
+}
+
+.topHeader .container .navbar {
+  padding: 0;
+}
+
+.topHeader .container .navbar .navbar-brand {
+  max-width: 320px;
+  padding: 0;
+}
+
+.topHeader .container .navbar .navbar-brand img {
+  width: 100%;
+}
+
+.topHeader .container .navbar .navbar-collapse {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.topHeader .container .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+  font-family: var(--Blinker);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: var(--black);
+}
+/*# sourceMappingURL=header.css.map */

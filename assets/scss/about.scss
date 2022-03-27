@@ -1,0 +1,265 @@
+.aboutContainerWrap
+{
+	display: flex;
+	flex-wrap:wrap;
+	width: 100%;
+	justify-content: flex-start;
+	padding:40px 0 0 0;
+}
+.splitMainHeading
+{
+	font-style: normal;
+	font-weight: 400;
+	font-size: 70px;
+	line-height: 90px;
+	font-family: var(--Blinker);
+	color: #000000;
+	span
+	{
+		background: linear-gradient(180deg, #6AFFFB 0%, #56B851 90.1%, #41A03C 100%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-clip: text;
+		text-fill-color: transparent;
+	}
+}
+.aboutToggleWrap
+{
+	display: flex;
+	flex-wrap:wrap;
+	width: 100%;
+	margin-bottom: 45px;
+	.aboutToggle
+	{
+		display: flex;
+		flex-wrap:wrap;
+		width: 100%;
+		background: url(../img/about-us-accord-line.png) repeat-x;
+		background-position: bottom;
+		padding-bottom: 8px;
+		position: relative;
+		.insideAboutToggle
+		{
+			display: flex;
+			flex-wrap:wrap;
+			width: 100%;
+			align-content: center;
+			.aboutLeftToggle
+			{
+				width: 25%;
+				img
+				{
+					width: 100%;
+				}
+			}
+			.aboutRightToggle
+			{
+				width: 75%;
+				display: flex;
+				flex-wrap: wrap;
+				align-items: flex-end;
+				padding-bottom: 35px;
+				p
+				{
+					font-family: var(--Blinker);
+					font-style: normal;
+					font-weight: 400;
+					font-size: 22px;
+					line-height: 32px;
+					color: #000000;
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+	.aboutCollapseBody
+	{
+		.card
+		{
+			background: rgba(231, 255, 233, 0.2);
+			padding:15px 0;
+			box-shadow: 0 0 0;
+			border:0;
+			width: 100%;
+			display: flex;
+			flex-wrap:wrap;
+			.container
+			{
+				max-width: 90%;
+				display: flex;
+				flex-wrap: wrap;
+				.aboutCollpaseBox
+				{
+					width: 100%;
+					display: flex;
+					flex-wrap:wrap;
+					.aboutCollapseBoxImg
+					{
+						width: 15%;
+						img
+						{
+							width: 100%;
+						}
+					}
+					.aboutCollpaseBoxContent
+					{
+						width: 85%;
+						padding-left: 50px;
+						h5
+						{
+							font-style: normal;
+							font-weight: 700;
+							font-size: 18px;
+							line-height: 26px;
+							color: #0C5F08;
+							font-family: var(--Blinker);
+							margin-bottom: 6px;
+						}
+						p
+						{
+							font-style: normal;
+							font-weight: 400;
+							font-size: 18px;
+							line-height: 26px;
+							color: #000000;
+							font-family: var(--Blinker);
+							margin:0;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+.aboutToggle[aria-expanded="false"]
+{
+	&:after
+	{
+	    content: '';
+	    position: absolute;
+	    right: 10px;
+	    bottom: 20px;
+	    width: 25px;
+	    height: 25px;
+	    background: url(../img/arrow.png) no-repeat;
+	    background-size: cover;
+	}
+}
+.aboutToggle[aria-expanded="true"]
+{
+	&:after
+	{
+		content: '';
+	    position: absolute;
+	    right: 10px;
+	    bottom: 20px;
+	    width: 25px;
+	    height: 25px;
+	    background: url(../img/arrow.png) no-repeat;
+	    background-size: cover;
+		transform: rotate(180deg);
+	}
+}
+.aboutTeamMembers
+{
+	display:flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-bottom: 50px;
+	.teamHeading
+	{
+		font-style: normal;
+		font-weight: 400;
+		font-size: 45px;
+		line-height: 55px;
+		color: #0C5F08;
+		margin:0 0 35px 0;
+		font-family: var(--Blinker);
+	}
+	.aboutTeamMemberBox
+	{
+		display:flex;
+		flex-wrap: wrap;
+		width: 100%;
+		margin-bottom: 35px;
+		align-items: center;
+		.teamMemberPic
+		{
+			width: 25%;
+			img
+			{
+				width: 100%;
+			}
+		}
+		.teamMemberIntroText
+		{
+			width: 75%;
+			padding-left: 25px;
+			h4
+			{
+				font-style: normal;
+				font-weight: 400;
+				font-size: 26px;
+				line-height: 35px;
+				color: #000000;
+				font-family: var(--Blinker);
+				margin:0;
+			}
+			p
+			{
+				font-family: var(--Blinker);
+				font-style: normal;
+				font-weight: 400;
+				font-size: 17px;
+				line-height: 22px;
+				color: #000000;
+				margin:0;
+			}
+		}
+	}
+}
+.aboutFollow
+{
+	display:flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-bottom: 50px;
+	.followHeading
+	{
+		font-style: normal;
+		font-weight: 400;
+		font-size: 45px;
+		line-height: 55px;
+		color: #0C5F08;
+		margin:0 0 35px 0;
+		font-family: var(--Blinker);
+	}
+	ul
+	{
+		list-style: none;
+		margin:0;
+		padding:0;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		li
+		{
+			list-style: none;
+			margin:0 30px 0 0;
+			padding:0;
+			display: flex;
+			flex-wrap: wrap;
+			a
+			{
+				img
+				{
+					width: 100px;
+				}
+			}
+			&:last-child
+			{
+				margin-right: 0
+			}
+		}
+	}
+}
