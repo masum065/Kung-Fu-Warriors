@@ -896,10 +896,235 @@ body {
       padding-bottom: 0;
       padding-top: 20px; }
       .homeContainerWithImg .container .homeRightSide h2 {
-        font-size: 50px;
-        line-height: 52px; }
+        font-size: 44px;
+        line-height: 45px; }
       .homeContainerWithImg .container .homeRightSide h4 {
         font-size: 20px;
-        line-height: 28px; } }
+        line-height: 28px; }
+
+  .splitMainHeading {
+    font-size: 44px;
+    line-height: 45px; }
+
+  .aboutToggleWrap .aboutToggle .insideAboutToggle .aboutRightToggle {
+    padding-left: 15px;
+    padding-right: 15px; }
+
+  .aboutFollow ul li {
+    list-style: none;
+    margin: 0 30px 30px 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap; }
+
+  .aboutFollow ul li:last-child {
+    margin-right: 30px; }
+
+  .initContainer .initCollapseBoxWrap {
+    max-width: 320px;
+    margin: auto; }
+
+  .initContainer .initCollapseBoxWrap .initBoxToggle:hover .initBoxMainImg:before {
+    background-size: contain; }
+
+  .initContainer .initCollapseBoxWrap .initBoxToggle[aria-expanded="true"] .initBoxMainImg:before {
+    background-size: contain; }
+
+  .initContainer .initCollapseBoxWrap .initBoxToggle .initBoxMainImg img {
+    width: 100%;
+    height: 118px; }
+
+  .warriorOverviewBoxesWrap .warriorOverviewSmallBox {
+    margin-bottom: 20px; }
+
+  .roadMapContainerInitLine .takeMeBtn {
+    margin-left: 0;
+    margin-top: 20px; }
+
+  .owl-carousel .owl-stage-outer {
+    width: 265px !important;
+    margin: auto; }
+
+  .roadMapCarouselContainer .owl-nav button.owl-prev {
+    left: -15px; }
+
+  .roadMapCarouselContainer .owl-nav button.owl-next {
+    right: 0; }
+
+  .attributeContainer .d-flex {
+    flex-direction: column; }
+
+  .attributeContainer .nav-pills {
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0 0; }
+
+  .attributeContainer .nav-pills .nav-link {
+    padding: 15px 0px;
+    width: 300px; }
+
+  .attributeContainer .nav-pills .nav-link.active:before {
+    background-size: cover; }
+
+  .attributeContainer .tab-content {
+    padding: 25px 0 0 0; }
+
+  .houseRankingsContainer .houseRankingFilter .houseRankingTextField {
+    min-width: 100%;
+    margin-bottom: 15px;
+    margin-top: 15px; }
+
+  .faqContainer {
+    width: 90%; } }
+@media (min-width: 481px) and (max-width: 767px) {
+  .homeContainerWithImg .container {
+    align-items: flex-start; }
+    .homeContainerWithImg .container .homeleftSide {
+      order: 2;
+      width: 100%;
+      padding-bottom: 0;
+      height: auto;
+      position: fixed;
+      bottom: 0; }
+      .homeContainerWithImg .container .homeleftSide .homeInsideLeftSide {
+        width: 93%; }
+    .homeContainerWithImg .container .homeRightSide {
+      order: 1;
+      width: 100%;
+      padding-bottom: 0;
+      padding-top: 20px; }
+      .homeContainerWithImg .container .homeRightSide h2 {
+        font-size: 44px;
+        line-height: 45px; }
+      .homeContainerWithImg .container .homeRightSide h4 {
+        font-size: 20px;
+        line-height: 28px; }
+
+  .splitMainHeading {
+    font-size: 44px;
+    line-height: 45px; }
+
+  .aboutToggleWrap .aboutToggle .insideAboutToggle .aboutRightToggle {
+    padding-left: 15px;
+    padding-right: 15px; }
+
+  .aboutFollow ul li {
+    list-style: none;
+    margin: 0 30px 30px 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap; }
+
+  .aboutFollow ul li:last-child {
+    margin-right: 30px; }
+
+  .initContainer .initCollapseBoxWrap {
+    max-width: 320px;
+    margin: auto; }
+
+  .initContainer .initCollapseBoxWrap .initBoxToggle:hover .initBoxMainImg:before {
+    background-size: contain; }
+
+  .initContainer .initCollapseBoxWrap .initBoxToggle[aria-expanded="true"] .initBoxMainImg:before {
+    background-size: contain; }
+
+  .initContainer .initCollapseBoxWrap .initBoxToggle .initBoxMainImg img {
+    width: 100%;
+    height: 118px; }
+
+  .warriorOverviewBoxesWrap .warriorOverviewSmallBox {
+    margin-bottom: 20px; }
+
+  .roadMapContainerInitLine .takeMeBtn {
+    margin-left: 0;
+    margin-top: 20px; }
+
+  .owl-carousel .owl-stage-outer {
+    width: 265px !important;
+    margin: auto; }
+
+  .roadMapCarouselContainer .owl-nav button.owl-prev {
+    left: -15px; }
+
+  .roadMapCarouselContainer .owl-nav button.owl-next {
+    right: 0; }
+
+  .attributeContainer .d-flex {
+    flex-direction: column; }
+
+  .attributeContainer .nav-pills {
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0 0; }
+
+  .attributeContainer .nav-pills .nav-link {
+    padding: 15px 0px;
+    width: 300px; }
+
+  .attributeContainer .nav-pills .nav-link.active:before {
+    background-size: cover; }
+
+  .attributeContainer .tab-content {
+    padding: 25px 0 0 0; }
+
+  .houseRankingsContainer .houseRankingFilter .houseRankingTextField {
+    min-width: 100%;
+    margin-bottom: 15px;
+    margin-top: 15px; } }
+@media (min-width: 768px) and (max-width: 1023px) {
+  .homeContainerWithImg .container .homeRightSide h2 {
+    font-size: 47px;
+    line-height: 52px; }
+
+  .splitMainHeading {
+    font-size: 47px;
+    line-height: 52px; }
+
+  .aboutTeamMembers .aboutTeamMemberBox .teamMemberPic {
+    width: 35%; }
+
+  .aboutTeamMembers .aboutTeamMemberBox .teamMemberIntroText {
+    width: 65%; }
+
+  .roadMapContainerInitLine .takeMeBtn {
+    margin-left: 0;
+    margin-top: 16px; }
+
+  .owl-carousel .owl-stage-outer {
+    width: 90% !important;
+    margin: auto; }
+
+  .roadMapCarouselContainer .owl-nav button.owl-prev {
+    left: -20px; }
+
+  .roadMapCarouselContainer .owl-nav button.owl-next {
+    right: 0; }
+
+  .initBoxesWrap .col-md-4 {
+    width: 50%; }
+
+  .initContainer .initCollapseBoxWrap .initBoxToggle[aria-expanded="true"] .initBoxMainImg:before {
+    width: 336px;
+    height: 125px;
+    background-size: cover; }
+
+  .initContainer .initCollapseBoxWrap .initBoxToggle .initBoxMainImg img {
+    width: 336px;
+    height: 125px; }
+
+  .initContainer .initCollapseBoxWrap .initBoxToggle:hover .initBoxMainImg:before {
+    width: 336px;
+    height: 125px;
+    background-size: cover; }
+
+  .warriorOverviewBoxesWrap .col-md-3 {
+    width: 50%; }
+
+  .houseRankingsContainer .houseRankingFilter .houseRankingTextField {
+    min-width: 430px; } }
 
 /*# sourceMappingURL=app.css.map */
