@@ -75,3 +75,38 @@ body
 
     }
 }
+.navbar-toggler
+{
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    position: relative;
+    top: 5px;
+    &:focus
+    {
+        outline: 0;
+        box-shadow: 0 0 0;
+    }
+    &:focus-visible
+    {
+        outline: 0;
+        box-shadow: 0 0 0;
+    }
+    &:hover
+    {
+        outline: 0;
+        box-shadow: 0 0 0;
+    }
+    &:active
+    {
+        outline: 0;
+        box-shadow: 0 0 0;
+    }
+    .navbar-toggler-icon
+    {
+        background:url(../img/hamburger-icon.png) no-repeat;
+        width: 30px;
+        height:30px;
+        display: block;
+        background-size: cover;
+    }
+}
