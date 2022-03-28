@@ -1,0 +1,208 @@
+.warriorOverviewBoxesWrap
+{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin:20px 0 0 0;
+	.row
+	{
+		width: 100%;
+	}
+	.warriorOverviewSmallBox
+	{
+		display: flex;
+		flex-wrap: wrap;
+		width: 265px;
+		height:265px;
+		align-items: center;
+		justify-content: center;
+		padding: 33px;
+		position: relative;
+		text-decoration: none;
+		&.warriorOverviewBox1Img
+		{
+			background: url(../img/rarities-box1.png) no-repeat;
+		}
+		&.warriorOverviewBox2Img
+		{
+			background: url(../img/rarities-box2.png) no-repeat;
+		}
+		&:hover
+		{
+			&:before
+		    {
+		      content:'';
+		      background: url(../img/border.png) no-repeat;
+		      width: 100%;
+		      height:100%;
+		      position: absolute;
+		    }
+		}
+		h3
+		{
+			font-style: normal;
+			font-weight: 400;
+			font-size: 28px;
+			line-height: 36px;
+			display: flex;
+			align-items: center;
+			text-align: center;
+			color: #000000;
+			flex-direction: column;
+			margin:0;
+			span
+			{
+				font-size: 20px;
+				line-height: 26px;
+				display: block;
+			}
+		}
+	}
+}
+.attributeContainer
+{
+	.nav-pills
+	{
+		.nav-link
+		{
+			background: rgba(153, 237, 161, 0.47);
+		    border-radius: 20px;
+		    text-align: center;
+		    font-style: normal;
+		    font-weight: 400;
+		    font-size: 20px;
+		    line-height: 24px;
+		    display: flex;
+		    align-items: center;
+		    text-align: center;
+		    color: #000000;
+		    font-family: var(--Blinker);
+		    margin-bottom: 6px;
+		    padding: 8px 0px;
+		    width: 100%;
+		    width: 220px;
+		    justify-content: center;
+		    position: relative;
+		    &:hover
+		    {
+		    	&:before
+		    	{
+		    		background: url(../img/atr-outline.png);
+		    		width: 100%;
+		    		height:100%;
+		    		content:'';
+		    		position: absolute;
+		    	}
+		    }
+		    &.active
+		    {
+		    	background: #0C5F08;
+		    	color:#fff;
+		    	&:before
+		    	{
+		    		background: url(../img/atr-outline.png);
+		    		width: 100%;
+		    		height:100%;
+		    		content:'';
+		    		position: absolute;
+		    	}
+		    }
+		}
+	}
+	.tab-content
+	{
+		padding:0 0 0 35px;
+		.tab-pane
+		{
+			.atrImgWrap
+			{
+				width: 100%;
+			}
+		}
+	}
+}
+.houseRankingsContainer
+{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	.houseRankingFilter
+	{
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+		.houseRankingTextField
+		{
+			background: rgba(231, 255, 233, 0.67);
+			border: 1px solid #0C5F08;
+			box-sizing: border-box;
+			border-radius: 20px;
+			font-style: normal;
+			font-weight: 400;
+			font-size: 17px;
+			line-height: 22px;
+			display: flex;
+			align-items: center;
+			text-align: center;
+			padding:6px 0;
+			margin:0 16px 0 0;
+			color: rgba(12, 95, 8, 0.5);
+			min-width:460px; 
+			&::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+			  color: rgba(12, 95, 8, 0.5);
+			}
+			&::-moz-placeholder { /* Firefox 19+ */
+			  color: rgba(12, 95, 8, 0.5);
+			}
+			&:-ms-input-placeholder { /* IE 10+ */
+			  color: rgba(12, 95, 8, 0.5);
+			}
+			&:-moz-placeholder { /* Firefox 18- */
+			  color: rgba(12, 95, 8, 0.5);
+			}
+		}
+		.generalGreenBtn
+		{
+			margin-right: 15px;
+		}
+	}
+	.houseRankingsBoxesWrap
+	{
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+		margin: 35px auto;
+	    text-align: center;
+	    align-items: center;
+	    justify-content: center;
+		.row
+		{
+			width: 100%;
+			.insideHouseRankingBox
+			{
+				margin-bottom: 15px;
+				img
+				{
+					width: 100%;
+				}
+				p
+				{
+					margin:0;
+					font-style: normal;
+					font-weight: 400;
+					font-size: 18px;
+					line-height: 23px;
+					color: #000000;
+				}
+				span
+				{
+					font-style: normal;
+					font-weight: 400;
+					font-size: 18px;
+					line-height: 23px;
+					color: #000000;
+				}
+			}
+		}
+	}
+}
