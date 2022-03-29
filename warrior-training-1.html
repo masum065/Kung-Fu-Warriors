@@ -42,7 +42,7 @@
                                     <a class="nav-link" href="initiatives.html">Initiatives</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link dropdown-toggle activeLink" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         Rarities
                                     </a>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -52,7 +52,7 @@
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <a class="nav-link dropdown-toggle activeLink" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         Staking / Utilities
                                     </a>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -77,24 +77,75 @@
         <div class="contentContainer">
             <div class="aboutContainerWrap">
                 <div class="container">
-                    <h2 class="splitMainHeading">Warrior <span>rarities</span></h2>
-                    
-                    <div class="initContainer">
-                        <p class="topSmallHeading">The KFW house NFT rankings take into priority 1 of 1 NFTs with legendary backgrounds, and “OG” versions of specific “characters” important to the KFW team. It also ranks our Warriors based on the occurrences rates of attributes and layer counts, weighted based on the “Tier” of the attribute within each layer.</p>
-                        <p class="topSmallHeading">Check out our <strong>infographic on attribute “Tiers”,</strong> or view our <strong>KFW House Rankings</strong></p>
-                        <div class="warriorOverviewBoxesWrap">
-                            <div class="row">
-                                <div class="col-md-3">
-                                    <a href="attribute-tiers.html" class="warriorOverviewSmallBox warriorOverviewBox1Img">
-                                        <h3><span>Infographic on</span>ATTRIBUTE TIERS</h3>
-                                    </a>
-                                </div>
-                                <div class="col-md-3">
-                                    <a href="house-rankings.html" class="warriorOverviewSmallBox warriorOverviewBox2Img">
-                                        <h3><span>KFW</span>HOUSE RANKINGS</h3>
-                                    </a>
-                                </div>
-                            </div>
+                    <div class="warriorTrainingTabs">
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="my-warriors-tab" data-bs-toggle="tab" data-bs-target="#myWarriors" type="button" role="tab" aria-controls="myWarriors" aria-selected="true">My Warriors</button>
+                          </li>
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="warriors-training-tab" data-bs-toggle="tab" data-bs-target="#warriorsTraining" type="button" role="tab" aria-controls="warriorsTraining" aria-selected="false">Warriors in Training</button>
+                          </li>
+                        </ul>
+                        <div class="tab-content" id="myTabContent">
+                          <div class="tab-pane fade show active" id="myWarriors" role="tabpanel" aria-labelledby="my-warriors-tab">
+                              <div class="myWarriorsTextWrap">
+                                  <span>You currenty have no Warriors.</span>
+                                  <a href="https://www.magiceden.io/marketplace/kfw" class="generalGreenBtn">Buy now</a>
+                              </div>
+                          </div>
+                          <div class="tab-pane fade" id="warriorsTraining" role="tabpanel" aria-labelledby="warriors-training-tab">
+                              <div class="warriorsTrainingTabContent">
+                                  <div class="row">
+                                      <div class="col-md-2">
+                                          <a href="#_" class="warriorTabContentBox">
+                                              <img src="assets/img/KFW-picture.png">
+                                              <span>KFW #1023</span>
+                                              <p>Rank #1</p>
+                                          </a>
+                                      </div>
+                                      <div class="col-md-2">
+                                          <a href="#_" class="warriorTabContentBox">
+                                              <img src="assets/img/KFW-picture.png">
+                                              <span>KFW #1023</span>
+                                              <p>Rank #1</p>
+                                          </a>
+                                      </div>
+                                      <div class="col-md-2">
+                                          <a href="#_" class="warriorTabContentBox">
+                                              <img src="assets/img/KFW-picture.png">
+                                              <span>KFW #1023</span>
+                                              <p>Rank #1</p>
+                                          </a>
+                                      </div>
+                                      <div class="col-md-2">
+                                          <a href="#_" class="warriorTabContentBox">
+                                              <img src="assets/img/KFW-picture.png">
+                                              <span>KFW #1023</span>
+                                              <p>Rank #1</p>
+                                          </a>
+                                      </div>
+                                      <div class="col-md-2">
+                                          <a href="#_" class="warriorTabContentBox">
+                                              <img src="assets/img/KFW-picture.png">
+                                              <span>KFW #1023</span>
+                                              <p>Rank #1</p>
+                                          </a>
+                                      </div>
+                                      <div class="col-md-2">
+                                          <a href="#_" class="warriorTabContentBox">
+                                              <img src="assets/img/KFW-picture.png">
+                                              <span>KFW #1023</span>
+                                              <p>Rank #1</p>
+                                          </a>
+                                      </div>
+                                  </div>
+                                  <div class="bottomBoxesWrap">
+                                      <div class="box1"><span>Your earnings:</span></div>
+                                      <div class="box2"><span>0.00 KFWT</span></div>
+                                      <div class="box3"><a href="#_" class="generalGreenBtn">Claim all</a></div>
+                                  </div>
+                              </div>
+                          </div>
                         </div>
                     </div>
                 </div>
@@ -125,36 +176,6 @@
                 }
             }
         })
-        $(document).ready(function(){
-          $(".roadMap1Img").click(function(){
-            $(".firstBox").toggle();
-            $(".firstBoxHideContent").toggle();
-          });
-          $(".roadMap2Img").click(function(){
-            $(".secondBox").toggle();
-            $(".secondBoxHideContent").toggle();
-          });
-          $(".roadMap3Img").click(function(){
-            $(".thirdBox").toggle();
-            $(".thirdBoxHideContent").toggle();
-          });
-          $(".roadMap4Img").click(function(){
-            $(".fourthBox").toggle();
-            $(".fourthBoxHideContent").toggle();
-          });
-          $(".roadMap5Img").click(function(){
-            $(".fifthBox").toggle();
-            $(".fifthBoxHideContent").toggle();
-          });
-          $(".roadMap6Img").click(function(){
-            $(".sixthBox").toggle();
-            $(".sixthBoxHideContent").toggle();
-          });
-          $(".roadMap7Img").click(function(){
-            $(".seventhBox").toggle();
-            $(".seventhBoxHideContent").toggle();
-          });
-        });
     </script>
 </body>
 

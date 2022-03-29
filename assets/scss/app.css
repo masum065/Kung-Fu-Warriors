@@ -53,6 +53,8 @@ body {
   flex-wrap: wrap;
   text-decoration: none;
   justify-content: center; }
+  .generalGreenBtn:hover {
+    color: var(--black); }
 
 .navbar-toggler {
   padding: 0 0 0 0;
@@ -1225,6 +1227,300 @@ body {
         line-height: 26px;
         display: block; }
 
+.warriorTrainingTopWrap h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 47px;
+  line-height: 55px;
+  text-align: center;
+  color: #0C5F08; }
+.warriorTrainingTopWrap .warriorDropdown {
+  max-width: 90%;
+  margin: auto;
+  width: auto;
+  position: relative; }
+  .warriorTrainingTopWrap .warriorDropdown .nav-link {
+    background: rgba(153, 237, 161, 0.47);
+    border-radius: 20px;
+    width: 100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 38px;
+    color: #000000;
+    position: relative; }
+    .warriorTrainingTopWrap .warriorDropdown .nav-link:after {
+      border: 0;
+      background: none; }
+  .warriorTrainingTopWrap .warriorDropdown .dropdown-menu {
+    background: rgba(153, 237, 161, 0.47);
+    border-radius: 20px;
+    padding: 15px; }
+    .warriorTrainingTopWrap .warriorDropdown .dropdown-menu p {
+      font-size: 18px;
+      color: #000;
+      margin-bottom: 10px; }
+  .warriorTrainingTopWrap .warriorDropdown .nav-link[aria-expanded="false"]:after {
+    content: '';
+    position: absolute;
+    right: 19px;
+    bottom: 13px;
+    width: 25px;
+    height: 25px;
+    background: url(../img/arrow.png) no-repeat;
+    background-size: cover; }
+  .warriorTrainingTopWrap .warriorDropdown .nav-link[aria-expanded="true"]:after {
+    content: '';
+    position: absolute;
+    right: 19px;
+    bottom: 13px;
+    width: 25px;
+    height: 25px;
+    background: url(../img/arrow.png) no-repeat;
+    background-size: cover;
+    transform: rotate(180deg); }
+
+.kfwConnectBox {
+  background: url(../img/warrior-training-bg.png) no-repeat;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 580px;
+  margin-bottom: -120px;
+  background-size: contain; }
+  .kfwConnectBox .generalGreenBtn {
+    text-transform: uppercase;
+    margin-left: 180px;
+    padding: 7px 32px;
+    font-size: 36px; }
+  .kfwConnectBox.alienImg {
+    background: url(../img/kfw-alien.png) no-repeat;
+    height: 720px; }
+    .kfwConnectBox.alienImg .generalGreenBtn {
+      margin-left: 480px; }
+
+.warriorTrainingTabs .nav-tabs {
+  justify-content: center;
+  border: 0; }
+  .warriorTrainingTabs .nav-tabs .nav-item {
+    margin-right: 15px; }
+    .warriorTrainingTabs .nav-tabs .nav-item .nav-link {
+      background: rgba(153, 237, 161, 0.47);
+      border-radius: 20px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 27px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: #000000;
+      border: 0;
+      padding: 8px 30px;
+      position: relative;
+      min-width: 238px;
+      max-width: 238px;
+      justify-content: center; }
+      .warriorTrainingTabs .nav-tabs .nav-item .nav-link.active {
+        background: #0C5F08;
+        color: #fff; }
+      .warriorTrainingTabs .nav-tabs .nav-item .nav-link:hover:before {
+        content: '';
+        background: url(../img/atr-outline.png) no-repeat;
+        background-size: cover;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 100%; }
+    .warriorTrainingTabs .nav-tabs .nav-item:last-child {
+      margin-right: 0; }
+.warriorTrainingTabs .tab-content {
+  padding: 150px 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; }
+  .warriorTrainingTabs .tab-content .myWarriorsTextWrap {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; }
+    .warriorTrainingTabs .tab-content .myWarriorsTextWrap span {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 26px;
+      color: #000000;
+      margin-right: 18px; }
+
+.warriorsTrainingTabContent .warriorTabContentBox {
+  margin-bottom: 15px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  text-decoration: none; }
+  .warriorsTrainingTabContent .warriorTabContentBox img {
+    width: 100%; }
+  .warriorsTrainingTabContent .warriorTabContentBox p {
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000; }
+  .warriorsTrainingTabContent .warriorTabContentBox span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000; }
+
+.bottomBoxesWrap {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  margin: 20px 0 0 0; }
+  .bottomBoxesWrap .box1 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: rgba(153, 237, 161, 0.47);
+    border-radius: 20px;
+    padding: 7px 36px; }
+    .bottomBoxesWrap .box1 span {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 27px;
+      text-align: center;
+      color: #000000; }
+  .bottomBoxesWrap .box2 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: rgba(153, 237, 161, 0.47);
+    border-radius: 20px;
+    margin: 0 15px;
+    padding: 7px 36px; }
+    .bottomBoxesWrap .box2 span {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 27px;
+      text-align: center;
+      color: #000000; }
+
+.warriorTrainingWrenchBoxWrap {
+  margin: 35px 0 0 0; }
+  .warriorTrainingWrenchBoxWrap.padtop117 {
+    padding-top: 117px; }
+  .warriorTrainingWrenchBoxWrap .warriorWrenchHeading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    color: #000000;
+    margin-bottom: 15px; }
+  .warriorTrainingWrenchBoxWrap .generalGreenBtn {
+    width: 194px;
+    margin: 35px auto 0;
+    max-width: unset;
+    text-transform: uppercase;
+    font-size: 28px; }
+  .warriorTrainingWrenchBoxWrap .row {
+    max-width: 75%;
+    margin: auto; }
+    .warriorTrainingWrenchBoxWrap .row .warriorTabContentBox {
+      margin-bottom: 15px;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      display: flex;
+      text-decoration: none; }
+      .warriorTrainingWrenchBoxWrap .row .warriorTabContentBox img {
+        width: 100%; }
+      .warriorTrainingWrenchBoxWrap .row .warriorTabContentBox p {
+        margin: 0;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        color: #000000; }
+      .warriorTrainingWrenchBoxWrap .row .warriorTabContentBox span {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        color: #000000; }
+      .warriorTrainingWrenchBoxWrap .row .warriorTabContentBox .generalGreenBtn {
+        width: auto;
+        margin: 15px auto 0;
+        max-width: unset;
+        text-transform: capitalize;
+        font-size: 20px;
+        padding: 5px 13px; }
+
+.successModal .modal-dialog {
+  max-width: 360px;
+  padding: 0; }
+  .successModal .modal-dialog .modal-content {
+    border: 0;
+    box-shadow: 0 0 0;
+    background: none;
+    padding: 0; }
+    .successModal .modal-dialog .modal-content .modal-body {
+      border: 0;
+      box-shadow: 0 0 0;
+      padding: 0;
+      background: none;
+      border-radius: 6px; }
+      .successModal .modal-dialog .modal-content .modal-body .successImg {
+        width: 100%;
+        border-radius: 6px; }
+    .successModal .modal-dialog .modal-content .btn-close {
+      position: absolute;
+      right: 20px;
+      bottom: 19px;
+      border: 0;
+      background: none;
+      z-index: 999; }
+      .successModal .modal-dialog .modal-content .btn-close:hover {
+        outline: 0;
+        box-shadow: 0 0 0; }
+      .successModal .modal-dialog .modal-content .btn-close:active {
+        outline: 0;
+        box-shadow: 0 0 0; }
+      .successModal .modal-dialog .modal-content .btn-close:focus {
+        outline: 0;
+        box-shadow: 0 0 0; }
+      .successModal .modal-dialog .modal-content .btn-close img {
+        width: 24px; }
+
+.gameRuleText {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  margin: auto;
+  text-align: center;
+  color: #0C5F08;
+  padding: 20px 0; }
+
+.shuffleGameCardWrap {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 50px 0; }
+  .shuffleGameCardWrap .row {
+    max-width: 85%;
+    margin: auto; }
+  .shuffleGameCardWrap .cardShuffle .fakeCardShuffle {
+    width: 100%; }
+
 @media (min-width: 1900px) {
   .homeContainerWithImg .container .homeleftSide {
     width: 65%;
@@ -1339,7 +1635,101 @@ body {
     margin-bottom: 5px; }
 
   .filterModal .modal-dialog .modal-content .modal-body .filterSelectBoxMainWrap .filterSelectionBox .rightToggleSelect {
-    width: 100%; } }
+    width: 100%; }
+
+  /**/
+  .kfwOverviewBoxesWrap .kfwOverviewSmallBox {
+    margin-bottom: 20px; }
+
+  .warriorTrainingTopWrap h3 {
+    font-size: 28px;
+    line-height: 35px; }
+
+  .warriorTrainingTopWrap .warriorDropdown {
+    max-width: 100%; }
+
+  .warriorTrainingTopWrap .warriorDropdown .nav-link {
+    font-size: 21px;
+    line-height: 38px; }
+
+  .kfwConnectBox {
+    align-items: flex-start;
+    height: 292px;
+    background-position: bottom;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 0; }
+    .kfwConnectBox .generalGreenBtn {
+      margin-left: 0;
+      font-size: 24px;
+      position: relative;
+      top: -30px; }
+
+  .warriorTrainingTabs .nav-tabs .nav-item {
+    margin-right: 0;
+    margin-bottom: 15px; }
+
+  .warriorTrainingTabs .nav-tabs .nav-item:last-child {
+    margin-right: 0;
+    margin-bottom: 0; }
+
+  .warriorTrainingTabs .tab-content .myWarriorsTextWrap {
+    justify-content: center; }
+
+  .warriorTrainingTabs .tab-content .myWarriorsTextWrap span {
+    margin-right: 0;
+    margin-bottom: 20px; }
+
+  .warriorTrainingTabs .tab-content {
+    padding-top: 100px; }
+
+  .warriorsTrainingTabContent {
+    max-width: 70%;
+    margin: auto; }
+
+  .bottomBoxesWrap {
+    flex-direction: column; }
+    .bottomBoxesWrap .box1 {
+      width: 100%;
+      margin-bottom: 10px; }
+    .bottomBoxesWrap .box2 {
+      width: 100%;
+      margin-bottom: 10px; }
+    .bottomBoxesWrap .box3 {
+      width: 100%;
+      margin-bottom: 0px; }
+
+  .warriorTrainingTopWrap .warriorDropdown .dropdown-menu li.dropdownMenuList {
+    height: 290px;
+    overflow: auto; }
+
+  .successModal .modal-dialog {
+    max-width: 320px;
+    padding: 0;
+    margin: auto; }
+
+  .kfwConnectBox.alienImg {
+    height: 260px;
+    background-position: bottom;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    background-size: contain;
+    margin: 100px 0 0 0;
+    position: absolute; }
+    .kfwConnectBox.alienImg .generalGreenBtn {
+      margin: auto;
+      top: -120px; }
+
+  .gameRuleText {
+    font-size: 25px;
+    line-height: 33px; }
+
+  .shuffleGameCardWrap .cardShuffle {
+    margin-bottom: 20px; } }
 @media (min-width: 481px) and (max-width: 767px) {
   .homeContainerWithImg .container {
     align-items: flex-start; }
@@ -1436,7 +1826,103 @@ body {
   .houseRankingsContainer .houseRankingFilter .houseRankingTextField {
     min-width: 100%;
     margin-bottom: 15px;
-    margin-top: 15px; } }
+    margin-top: 15px; }
+
+  .kfwOverviewBoxesWrap .kfwOverviewSmallBox {
+    margin-bottom: 20px; }
+
+  .warriorTrainingTopWrap h3 {
+    font-size: 28px;
+    line-height: 35px; }
+
+  .warriorTrainingTopWrap .warriorDropdown {
+    max-width: 100%; }
+
+  .warriorTrainingTopWrap .warriorDropdown .nav-link {
+    font-size: 21px;
+    line-height: 38px; }
+
+  .kfwConnectBox {
+    align-items: flex-start;
+    height: 292px;
+    background-position: bottom;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 0; }
+    .kfwConnectBox .generalGreenBtn {
+      margin-left: 0;
+      font-size: 24px;
+      position: relative;
+      top: -30px; }
+
+  .warriorTrainingTabs .nav-tabs .nav-item {
+    margin-right: 15px;
+    margin-bottom: 0px; }
+
+  .warriorTrainingTabs .nav-tabs .nav-item:last-child {
+    margin-right: 0;
+    margin-bottom: 0; }
+
+  .warriorTrainingTabs .tab-content .myWarriorsTextWrap {
+    justify-content: center;
+    align-items: center; }
+
+  .warriorTrainingTabs .tab-content .myWarriorsTextWrap span {
+    margin-right: 15px; }
+
+  .warriorTrainingTabs .tab-content {
+    padding-top: 100px; }
+
+  .warriorsTrainingTabContent {
+    max-width: 70%;
+    margin: auto; }
+
+  .bottomBoxesWrap {
+    flex-direction: column; }
+    .bottomBoxesWrap .box1 {
+      width: 100%;
+      margin-bottom: 10px; }
+    .bottomBoxesWrap .box2 {
+      width: 100%;
+      margin-bottom: 10px; }
+    .bottomBoxesWrap .box3 {
+      width: 100%;
+      margin-bottom: 0px; }
+
+  .warriorTrainingTopWrap .warriorDropdown .dropdown-menu li.dropdownMenuList {
+    height: 290px;
+    overflow: auto; }
+
+  .successModal .modal-dialog {
+    max-width: 320px;
+    padding: 0;
+    margin: auto; }
+
+  .kfwConnectBox.alienImg {
+    height: 260px;
+    background-position: bottom;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    background-size: contain;
+    margin: 100px 0 0 0;
+    position: absolute; }
+    .kfwConnectBox.alienImg .generalGreenBtn {
+      margin: auto;
+      top: -120px; }
+
+  .gameRuleText {
+    font-size: 25px;
+    line-height: 33px; }
+
+  .shuffleGameCardWrap .cardShuffle {
+    margin-bottom: 20px; }
+
+  .warriorTrainingTopWrap.padbot300 {
+    padding-bottom: 300px; } }
 @media (min-width: 768px) and (max-width: 1023px) {
   .homeContainerWithImg .container .homeRightSide h2 {
     font-size: 47px;
@@ -1487,6 +1973,59 @@ body {
     width: 50%; }
 
   .houseRankingsContainer .houseRankingFilter .houseRankingTextField {
-    min-width: 430px; } }
+    min-width: 430px; }
+
+  .kfwOverviewBoxesWrap .col-md-3 {
+    width: 33.33%; }
+  .kfwOverviewBoxesWrap .kfwOverviewSmallBox {
+    width: 218px;
+    height: 218px;
+    background-size: cover !important; }
+
+  .kfwConnectBox {
+    height: 700px;
+    margin-bottom: -155px;
+    background-size: contain;
+    position: absolute;
+    bottom: 0;
+    width: 65%; }
+    .kfwConnectBox .generalGreenBtn {
+      text-transform: uppercase;
+      margin-left: 600px;
+      padding: 7px 32px;
+      font-size: 36px; }
+
+  .kfwConnectBox.alienImg {
+    height: 676px;
+    width: 65%;
+    background-size: contain; } }
+@media (width: 1024px) {
+  .homeContainerWithImg .container .homeRightSide h2 {
+    font-size: 57px;
+    line-height: 74px; }
+
+  .roadMapCarouselContainer .owl-nav button.owl-next {
+    right: -5px; }
+
+  .roadMapCarouselContainer .owl-nav button.owl-prev {
+    left: -60px; }
+
+  .initContainer .initCollapseBoxWrap .initBoxToggle:hover .initBoxMainImg:before {
+    background-size: contain;
+    background-repeat: no-repeat; }
+
+  .initContainer .initCollapseBoxWrap .initBoxToggle[aria-expanded="true"] .initBoxMainImg:before {
+    background-size: contain;
+    background-repeat: no-repeat; }
+
+  .initContainer .initCollapseBoxWrap .initBoxToggle .initBoxMainImg img {
+    width: 291px;
+    height: 110px; }
+
+  .warriorOverviewBoxesWrap .col-md-3 {
+    width: 33.33%; }
+
+  .kfwOverviewBoxesWrap .col-md-3 {
+    width: 33.33%; } }
 
 /*# sourceMappingURL=app.css.map */
