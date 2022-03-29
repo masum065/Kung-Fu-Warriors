@@ -14,11 +14,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Blinker:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/scss/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/scss/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/scss/aos.css">
     <link rel="stylesheet" href="assets/scss/app.css?v=1.0">
 </head>
 
 <body class="">
-    <div class="mainWrapper pad0">
+    <div class="mainWrapper">
         <header class="topHeader">
             <div class="insideHeader">
                 <div class="container">
@@ -49,7 +52,7 @@
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <a class="nav-link dropdown-toggle activeLink" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         Staking / Utilities
                                     </a>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -72,17 +75,33 @@
             </div>
         </header>
         <div class="contentContainer">
-            <div class="homeContainerWithImg">
+            <div class="aboutContainerWrap">
                 <div class="container">
-                    <div class="homeleftSide">
-                        <div class="homeInsideLeftSide">
-                            <img src="assets/img/home-land-lady.png" alt="" />
+                    <h2 class="splitMainHeading">KFW training, <span>tokens and utilities</span></h2>
+                    
+                    <div class="initContainer">
+                        <p class="topSmallHeading">Allow your Kung Fu Warriors to go <strong>Training</strong> to earn <strong>KFW Tokens</strong> (KFWT - calculated based on the # of KFW NFTs you send to training + the rankings of the NFTs)</p>
+                        <p class="topSmallHeading">There are multiple methods to <strong>utilize your KFWT</strong> (see below, with more - think merch, think partnerships, think metaverse -  to come!)</p>
+                        <div class="kfwOverviewBoxesWrap">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <a href="#_" class="kfwOverviewSmallBox kfwOverviewBox1Img">
+                                        <h3><span>Earn KFW tokens</span>Warrior Training</h3>
+                                    </a>
+                                </div>
+                                <div class="col-md-3">
+                                    <a href="#_" class="kfwOverviewSmallBox kfwOverviewBox2Img">
+                                        <h3><span>Use KFW tokens</span>Recruit a Warrior</h3>
+                                    </a>
+                                </div>
+                                <div class="col-md-3">
+                                    <a href="#_" class="kfwOverviewSmallBox kfwOverviewBox3Img">
+                                        <h3><span>Use KFW token</span>The Mysterious Warrior</h3>
+                                    </a>
+                                </div>
+
+                            </div>
                         </div>
-                    </div>
-                    <div class="homeRightSide">
-                        <h2>Kung Fu Warriors</h2>
-                        <h4>功夫戰士: For Martial Arts Lovers and Art Collectors</h4>
-                        <a href='https://www.magiceden.io/marketplace/kfw' target="_blank" class="buyNowHomeBtn">Buy now</a>
                     </div>
                 </div>
             </div>
@@ -90,6 +109,59 @@
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script>
+        AOS.init();
+        $('.owl-carousel').owlCarousel({
+            loop:false,
+            nav:true,
+            margin:15,
+            dots: false,
+            slideBy: 4,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:3
+                },
+                1000:{
+                    items:4
+                }
+            }
+        })
+        $(document).ready(function(){
+          $(".roadMap1Img").click(function(){
+            $(".firstBox").toggle();
+            $(".firstBoxHideContent").toggle();
+          });
+          $(".roadMap2Img").click(function(){
+            $(".secondBox").toggle();
+            $(".secondBoxHideContent").toggle();
+          });
+          $(".roadMap3Img").click(function(){
+            $(".thirdBox").toggle();
+            $(".thirdBoxHideContent").toggle();
+          });
+          $(".roadMap4Img").click(function(){
+            $(".fourthBox").toggle();
+            $(".fourthBoxHideContent").toggle();
+          });
+          $(".roadMap5Img").click(function(){
+            $(".fifthBox").toggle();
+            $(".fifthBoxHideContent").toggle();
+          });
+          $(".roadMap6Img").click(function(){
+            $(".sixthBox").toggle();
+            $(".sixthBoxHideContent").toggle();
+          });
+          $(".roadMap7Img").click(function(){
+            $(".seventhBox").toggle();
+            $(".seventhBoxHideContent").toggle();
+          });
+        });
+    </script>
 </body>
 
 </html>

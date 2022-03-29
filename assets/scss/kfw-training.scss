@@ -1,0 +1,65 @@
+.kfwOverviewBoxesWrap
+{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin:20px 0 0 0;
+	.row
+	{
+		width: 100%;
+	}
+	.kfwOverviewSmallBox
+	{
+		display: flex;
+		flex-wrap: wrap;
+		width: 265px;
+		height:265px;
+		align-items: center;
+		justify-content: center;
+		padding: 33px;
+		position: relative;
+		text-decoration: none;
+		&.kfwOverviewBox1Img
+		{
+			background: url(../img/warrior-training.png) no-repeat;
+		}
+		&.kfwOverviewBox2Img
+		{
+			background: url(../img/recruit-warrior.png) no-repeat;
+		}
+		&.kfwOverviewBox3Img
+		{
+			background: url(../img/mysterious-warrior.png) no-repeat;
+		}
+		&:hover
+		{
+			&:before
+		    {
+		      content:'';
+		      background: url(../img/border.png) no-repeat;
+		      width: 100%;
+		      height:100%;
+		      position: absolute;
+		    }
+		}
+		h3
+		{
+			font-style: normal;
+			font-weight: 400;
+			font-size: 28px;
+			line-height: 36px;
+			display: flex;
+			align-items: center;
+			text-align: center;
+			color: #000000;
+			flex-direction: column;
+			margin:0;
+			span
+			{
+				font-size: 20px;
+				line-height: 26px;
+				display: block;
+			}
+		}
+	}
+}
