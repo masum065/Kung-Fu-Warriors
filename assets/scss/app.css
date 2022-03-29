@@ -78,6 +78,9 @@ body {
     display: block;
     background-size: cover; }
 
+.mautoBtn {
+  margin: 15px auto 0; }
+
 .topHeader {
   background: url(../img/top-bar.png);
   background-repeat: repeat-x;
@@ -878,6 +881,209 @@ body {
           line-height: 23px;
           color: #000000; }
 
+.filterModal .modal-dialog {
+  max-width: 600px; }
+  .filterModal .modal-dialog .modal-content {
+    border: 0;
+    border-radius: 10px; }
+    .filterModal .modal-dialog .modal-content .btn-close {
+      border: 0;
+      background: none;
+      margin-left: auto;
+      margin-top: 20px;
+      margin-right: 25px;
+      padding: 0; }
+      .filterModal .modal-dialog .modal-content .btn-close:hover {
+        outline: 0;
+        box-shadow: 0 0 0; }
+      .filterModal .modal-dialog .modal-content .btn-close:focus {
+        outline: 0;
+        box-shadow: 0 0 0; }
+      .filterModal .modal-dialog .modal-content .btn-close:active {
+        outline: 0;
+        box-shadow: 0 0 0; }
+      .filterModal .modal-dialog .modal-content .btn-close img {
+        width: 20px; }
+    .filterModal .modal-dialog .modal-content .modal-body {
+      padding: 0; }
+      .filterModal .modal-dialog .modal-content .modal-body .filterSelectBoxMainWrap {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 85%;
+        margin: auto;
+        padding: 20px 0; }
+        .filterModal .modal-dialog .modal-content .modal-body .filterSelectBoxMainWrap form {
+          display: flex;
+          flex-wrap: wrap;
+          width: 100%; }
+        .filterModal .modal-dialog .modal-content .modal-body .filterSelectBoxMainWrap .filterSelectionBox {
+          display: flex;
+          flex-wrap: wrap;
+          width: 100%;
+          margin-bottom: 6px; }
+          .filterModal .modal-dialog .modal-content .modal-body .filterSelectBoxMainWrap .filterSelectionBox .leftToggleSelect {
+            width: 43%;
+            margin-right: 10px; }
+            .filterModal .modal-dialog .modal-content .modal-body .filterSelectBoxMainWrap .filterSelectionBox .leftToggleSelect .leftToggleAnchor {
+              width: 100%;
+              display: block;
+              background: #C1E9C4;
+              border-radius: 20px;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 20px;
+              line-height: 26px;
+              display: flex;
+              align-items: center;
+              text-align: center;
+              color: #000000;
+              height: 36px;
+              text-align: center;
+              text-decoration: none;
+              justify-content: center; }
+          .filterModal .modal-dialog .modal-content .modal-body .filterSelectBoxMainWrap .filterSelectionBox .rightToggleSelect {
+            width: 55%; }
+            .filterModal .modal-dialog .modal-content .modal-body .filterSelectBoxMainWrap .filterSelectionBox .rightToggleSelect .accordion {
+              width: 100%; }
+              .filterModal .modal-dialog .modal-content .modal-body .filterSelectBoxMainWrap .filterSelectionBox .rightToggleSelect .accordion .accordion-item {
+                border: 0;
+                background: none;
+                box-shadow: 0 0 0; }
+              .filterModal .modal-dialog .modal-content .modal-body .filterSelectBoxMainWrap .filterSelectionBox .rightToggleSelect .accordion .accordion-header {
+                width: 100%;
+                border: 0;
+                background: none;
+                box-shadow: 0 0 0; }
+                .filterModal .modal-dialog .modal-content .modal-body .filterSelectBoxMainWrap .filterSelectionBox .rightToggleSelect .accordion .accordion-header .accordion-button {
+                  background: #E6F6E7;
+                  border: 1px solid #0C5F08;
+                  box-sizing: border-box;
+                  border-radius: 20px;
+                  font-style: normal;
+                  font-weight: 400;
+                  font-size: 17px;
+                  line-height: 22px;
+                  display: flex;
+                  align-items: center;
+                  text-align: center;
+                  color: rgba(12, 95, 8, 0.5);
+                  height: 36px;
+                  width: 100%; }
+                  .filterModal .modal-dialog .modal-content .modal-body .filterSelectBoxMainWrap .filterSelectionBox .rightToggleSelect .accordion .accordion-header .accordion-button:hover {
+                    outline: 0;
+                    box-shadow: 0 0 0; }
+                  .filterModal .modal-dialog .modal-content .modal-body .filterSelectBoxMainWrap .filterSelectionBox .rightToggleSelect .accordion .accordion-header .accordion-button:focus {
+                    outline: 0;
+                    box-shadow: 0 0 0; }
+                  .filterModal .modal-dialog .modal-content .modal-body .filterSelectBoxMainWrap .filterSelectionBox .rightToggleSelect .accordion .accordion-header .accordion-button:active {
+                    outline: 0;
+                    box-shadow: 0 0 0; }
+                  .filterModal .modal-dialog .modal-content .modal-body .filterSelectBoxMainWrap .filterSelectionBox .rightToggleSelect .accordion .accordion-header .accordion-button span {
+                    display: flex;
+                    width: 100%;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    justify-content: center; }
+              .filterModal .modal-dialog .modal-content .modal-body .filterSelectBoxMainWrap .filterSelectionBox .rightToggleSelect .accordion .accordion-body {
+                padding: 0; }
+              .filterModal .modal-dialog .modal-content .modal-body .filterSelectBoxMainWrap .filterSelectionBox .rightToggleSelect .accordion .accordionAttrWrap {
+                padding: 0;
+                margin: 0; }
+                .filterModal .modal-dialog .modal-content .modal-body .filterSelectBoxMainWrap .filterSelectionBox .rightToggleSelect .accordion .accordionAttrWrap .accordionAttrList {
+                  background: #E6F6E7;
+                  border-radius: 20px;
+                  display: flex;
+                  flex-wrap: wrap;
+                  width: 100%;
+                  align-items: center;
+                  justify-content: center;
+                  height: 36px;
+                  position: relative;
+                  /* Hide the browser's default checkbox */
+                  /* Create a custom checkbox */
+                  /* On mouse-over, add a grey background color */
+                  /* When the checkbox is checked, add a blue background */
+                  /* Create the checkmark/indicator (hidden when not checked) */
+                  /* Show the checkmark when checked */
+                  /* Style the checkmark/indicator */ }
+                  .filterModal .modal-dialog .modal-content .modal-body .filterSelectBoxMainWrap .filterSelectionBox .rightToggleSelect .accordion .accordionAttrWrap .accordionAttrList p {
+                    display: flex;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 17px;
+                    line-height: 22px;
+                    display: flex;
+                    align-items: center;
+                    text-align: center;
+                    color: #0C5F08;
+                    margin: 0; }
+                  .filterModal .modal-dialog .modal-content .modal-body .filterSelectBoxMainWrap .filterSelectionBox .rightToggleSelect .accordion .accordionAttrWrap .accordionAttrList .customCheckBoxWrap {
+                    display: block;
+                    position: absolute;
+                    padding-left: 0px;
+                    margin-bottom: 19px;
+                    cursor: pointer;
+                    -webkit-user-select: none;
+                    -moz-user-select: none;
+                    -ms-user-select: none;
+                    user-select: none;
+                    margin-left: auto;
+                    width: 20px;
+                    right: 20px; }
+                  .filterModal .modal-dialog .modal-content .modal-body .filterSelectBoxMainWrap .filterSelectionBox .rightToggleSelect .accordion .accordionAttrWrap .accordionAttrList .customCheckBoxWrap input {
+                    position: absolute;
+                    opacity: 0;
+                    cursor: pointer;
+                    height: 0;
+                    width: 0; }
+                  .filterModal .modal-dialog .modal-content .modal-body .filterSelectBoxMainWrap .filterSelectionBox .rightToggleSelect .accordion .accordionAttrWrap .accordionAttrList .customCheckBoxWrap .checkmark {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    height: 18px;
+                    width: 18px;
+                    border: 3px solid #0C5F08; }
+                  .filterModal .modal-dialog .modal-content .modal-body .filterSelectBoxMainWrap .filterSelectionBox .rightToggleSelect .accordion .accordionAttrWrap .accordionAttrList .customCheckBoxWrap:hover input ~ .checkmark {
+                    background-color: transparent; }
+                  .filterModal .modal-dialog .modal-content .modal-body .filterSelectBoxMainWrap .filterSelectionBox .rightToggleSelect .accordion .accordionAttrWrap .accordionAttrList .customCheckBoxWrap input:checked ~ .checkmark {
+                    background-color: #fff; }
+                  .filterModal .modal-dialog .modal-content .modal-body .filterSelectBoxMainWrap .filterSelectionBox .rightToggleSelect .accordion .accordionAttrWrap .accordionAttrList .customCheckBoxWrap .checkmark:after {
+                    content: "";
+                    position: absolute;
+                    display: none; }
+                  .filterModal .modal-dialog .modal-content .modal-body .filterSelectBoxMainWrap .filterSelectionBox .rightToggleSelect .accordion .accordionAttrWrap .accordionAttrList .customCheckBoxWrap input:checked ~ .checkmark:after {
+                    display: block; }
+                  .filterModal .modal-dialog .modal-content .modal-body .filterSelectBoxMainWrap .filterSelectionBox .rightToggleSelect .accordion .accordionAttrWrap .accordionAttrList .customCheckBoxWrap .checkmark:after {
+                    left: 2px;
+                    top: 2px;
+                    width: 8px;
+                    height: 8px;
+                    border: solid white;
+                    border-width: 0;
+                    -ms-transform: rotate(45deg);
+                    background: #0C5F08; }
+
+.rightToggleSelect .accordion-button[aria-expanded="false"]:after {
+  content: '';
+  position: absolute;
+  right: 20px;
+  bottom: 7px;
+  width: 18px;
+  height: 18px;
+  background: url(../img/arrow.png) no-repeat;
+  background-size: cover; }
+
+.rightToggleSelect .accordion-button[aria-expanded="true"]:after {
+  content: '';
+  position: absolute;
+  right: 20px;
+  bottom: 7px;
+  width: 18px;
+  height: 18px;
+  background: url(../img/arrow.png) no-repeat;
+  background-size: cover;
+  transform: rotate(180deg); }
+
 @media (max-width: 480px) {
   .homeContainerWithImg .container {
     align-items: flex-start; }
@@ -977,7 +1183,15 @@ body {
     margin-top: 15px; }
 
   .faqContainer {
-    width: 90%; } }
+    width: 90%; }
+
+  .filterModal .modal-dialog .modal-content .modal-body .filterSelectBoxMainWrap .filterSelectionBox .leftToggleSelect {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 5px; }
+
+  .filterModal .modal-dialog .modal-content .modal-body .filterSelectBoxMainWrap .filterSelectionBox .rightToggleSelect {
+    width: 100%; } }
 @media (min-width: 481px) and (max-width: 767px) {
   .homeContainerWithImg .container {
     align-items: flex-start; }

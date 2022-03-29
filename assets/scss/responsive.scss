@@ -134,6 +134,16 @@
 	{
 	    width: 90%;
 	}
+	.filterModal .modal-dialog .modal-content .modal-body .filterSelectBoxMainWrap .filterSelectionBox .leftToggleSelect 
+	{
+	    width: 100%;
+	    margin-right: 0;
+	    margin-bottom: 5px;
+	}
+	.filterModal .modal-dialog .modal-content .modal-body .filterSelectBoxMainWrap .filterSelectionBox .rightToggleSelect 
+	{
+    	width: 100%;
+	}
 }
 @media (min-width:481px) and (max-width: 767px)
 {
