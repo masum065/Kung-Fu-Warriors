@@ -750,8 +750,15 @@ body {
             color: #000000;
             margin-bottom: 20px;
             display: block; }
-          .faqContainer .accordion .accordion-item .accordion-collapse .accordion-body ol li ol li {
-            list-style: lower-alpha; }
+          .faqContainer .accordion .accordion-item .accordion-collapse .accordion-body ol {
+            padding: 0 18px; }
+            .faqContainer .accordion .accordion-item .accordion-collapse .accordion-body ol li {
+              font-size: 18px;
+              line-height: 24px; }
+              .faqContainer .accordion .accordion-item .accordion-collapse .accordion-body ol li ol li {
+                list-style: lower-alpha;
+                font-size: 18px;
+                line-height: 24px; }
 
 .initContainer .topSmallHeading {
   font-style: normal;
@@ -1297,9 +1304,11 @@ body {
     font-size: 36px; }
   .kfwConnectBox.alienImg {
     background: url(../img/kfw-alien.png) no-repeat;
-    height: 720px; }
+    height: 580px;
+    width: 100%;
+    background-size: contain; }
     .kfwConnectBox.alienImg .generalGreenBtn {
-      margin-left: 480px; }
+      margin-left: 180px; }
 
 .warriorTrainingTabs .nav-tabs {
   justify-content: center;
@@ -1487,7 +1496,9 @@ body {
       bottom: 19px;
       border: 0;
       background: none;
-      z-index: 999; }
+      z-index: 999;
+      width: 24px;
+      height: 24px; }
       .successModal .modal-dialog .modal-content .btn-close:hover {
         outline: 0;
         box-shadow: 0 0 0; }
@@ -1729,7 +1740,10 @@ body {
     line-height: 33px; }
 
   .shuffleGameCardWrap .cardShuffle {
-    margin-bottom: 20px; } }
+    margin-bottom: 20px; }
+
+  .topHeader .container .navbar .navbar-brand {
+    max-width: 70%; } }
 @media (min-width: 481px) and (max-width: 767px) {
   .homeContainerWithImg .container {
     align-items: flex-start; }

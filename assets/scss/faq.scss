@@ -87,13 +87,18 @@
 					}
 					ol
 					{
+						padding:0 18px;
 						li
 						{
+							font-size: 18px;
+							line-height: 24px;
 							ol
 							{
 								li
 								{
 									list-style: lower-alpha;
+									font-size: 18px;
+									line-height: 24px;
 								}
 							}
 						}

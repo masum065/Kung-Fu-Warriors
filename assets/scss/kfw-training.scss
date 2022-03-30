@@ -166,10 +166,12 @@
     &.alienImg
     {
     	background: url(../img/kfw-alien.png) no-repeat;
-    	height: 720px;
+    	height: 580px;
+    	width: 100%;
+    	background-size: contain;
     	.generalGreenBtn
     	{
-    		margin-left: 480px;
+    		margin-left: 180px;
     	}
 
     }
@@ -435,6 +437,8 @@
 			    border: 0;
 			    background: none;
 			    z-index: 999;
+			    width: 24px;
+			    height:24px;
 			    &:hover
 			    {
 			    	outline: 0;
